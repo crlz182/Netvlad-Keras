@@ -11,7 +11,7 @@ The model can be found in `netvlad_keras.py` along with the custom layer in `net
 In addition, `compare.py` checks wheather the outputs of the two models are consistent between Tensorflow and Keras for a given dataset.
 `check_layers.py` is a low level debugging script which allows you to compare the two model's outputs for each layer.
 
-# How to use
+## How to use
 
 1. Download the weights from [here](https://1drv.ms/u/s!AuunpfP7kocxkeElzct-xFlMnVM4cg?e=uOVgF4) or create them on your own using `savemodel.py`.
 
@@ -29,11 +29,11 @@ In addition, `compare.py` checks wheather the outputs of the two models are cons
 
 A working example can be found in `example.py`
 
-# Some results
+## Some results
 A few results showing the best match in a dataset given the query image
 ![Picture not found](results.jpg)
 
-# TODO
+## TODO
 * Currently, the model cannot be loaded from a file because of the custom layers.
 * The loss function has to be implemented (the model is not trainable yet)
 
