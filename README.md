@@ -33,7 +33,7 @@ A working example can be found in `example.py`
 A few results showing the best match in a dataset given the query image
 ![Picture not found](results.jpg)
 
-#TODO
+# TODO
 * Currently, the model cannot be loaded from a file because of the custom layers.
 * The loss function has to be implemented (the model is not trainable yet)
 
